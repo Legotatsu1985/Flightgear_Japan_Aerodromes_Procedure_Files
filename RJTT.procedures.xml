@@ -4400,7 +4400,952 @@
                     <Sp_Turn>Auto</Sp_Turn>
                 </RwyTr_Waypoint>
             </RunwayTransition>
-            
+            <Sid_Transition Name="AKAGI">
+                <SidTr_Waypoint ID="1">
+                    <Name>CLARK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.117221</Latitude>
+                    <Longitude>139.800139</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>AKAGI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.391194</Latitude>
+                    <Longitude>139.698972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="BRUCE">
+                <SidTr_Waypoint ID="1">
+                    <Name>CLARK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.117221</Latitude>
+                    <Longitude>139.800139</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>BRUCE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.200111</Latitude>
+                    <Longitude>139.948861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="INUBO">
+                <SidTr_Waypoint ID="1">
+                    <Name>BRUCE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.200111</Latitude>
+                    <Longitude>139.948861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>LEWIS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.231443</Latitude>
+                    <Longitude>140.142972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>17000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="3">
+                    <Name>SILVA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.255000</Latitude>
+                    <Longitude>140.290556</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>17000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="4">
+                    <Name>INUBO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.726471</Latitude>
+                    <Longitude>140.799417</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>25000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+        </Sid>
+        <Sid Name="ROVER2B" Runways="16R,16L,34R,05">
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>158</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>T6R11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.431249</Latitude>
+                    <Longitude>139.860333</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>WELDA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.494833</Latitude>
+                    <Longitude>139.999083</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>6000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>PLUTO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.608916</Latitude>
+                    <Longitude>139.960222</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>KAIJI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.735999</Latitude>
+                    <Longitude>139.968499</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>12000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>158</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>T6L23</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.440999</Latitude>
+                    <Longitude>139.927528</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>WELDA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.494833</Latitude>
+                    <Longitude>139.999083</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>6000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>PLUTO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.608916</Latitude>
+                    <Longitude>139.960222</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>KAIJI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.735999</Latitude>
+                    <Longitude>139.968499</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>12000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(700)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>700</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>338</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARAKA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.646888</Latitude>
+                    <Longitude>139.844972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>EDOJO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.703888</Latitude>
+                    <Longitude>139.858396</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>OHEDO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.756500</Latitude>
+                    <Longitude>139.810722</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>12000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="05">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>050</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>PLUTO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.608916</Latitude>
+                    <Longitude>139.960222</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>KAIJI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.735999</Latitude>
+                    <Longitude>139.968499</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Transition Name="AKAGI">
+                <SidTr_Waypoint ID="1">
+                    <Name>CLARK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.117221</Latitude>
+                    <Longitude>139.800139</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>AKAGI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.391194</Latitude>
+                    <Longitude>139.698972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="BRUCE">
+                <SidTr_Waypoint ID="1">
+                    <Name>CLARK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.117221</Latitude>
+                    <Longitude>139.800139</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>BRUCE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.200111</Latitude>
+                    <Longitude>139.948861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="INUBO">
+                <SidTr_Waypoint ID="1">
+                    <Name>BRUCE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.200111</Latitude>
+                    <Longitude>139.948861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>LEWIS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.231443</Latitude>
+                    <Longitude>140.142972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>17000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="3">
+                    <Name>SILVA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.255000</Latitude>
+                    <Longitude>140.290556</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>17000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="4">
+                    <Name>INUBO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.726471</Latitude>
+                    <Longitude>140.799417</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>25000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+        </Sid>
+        <Sid Name="ROVER2C" Runways="16R,16L,34R,05">
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>158</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>T6R11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.431249</Latitude>
+                    <Longitude>139.860333</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>WELDA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.494833</Latitude>
+                    <Longitude>139.999083</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>6000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>PLUTO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.608916</Latitude>
+                    <Longitude>139.960222</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>KAIJI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.735999</Latitude>
+                    <Longitude>139.968499</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>12000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>158</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>T6L31</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.472999</Latitude>
+                    <Longitude>139.946667</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>DAMBO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.571349</Latitude>
+                    <Longitude>140.078722</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>T6L32</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.636360</Latitude>
+                    <Longitude>139.981167</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>LESMO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.686194</Latitude>
+                    <Longitude>139.974833</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>8000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>KAIJI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.735999</Latitude>
+                    <Longitude>139.968499</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="8">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>12000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(700)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>700</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>338</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARAKA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.646888</Latitude>
+                    <Longitude>139.844972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>EDOJO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.703888</Latitude>
+                    <Longitude>139.858396</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>OHEDO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.756500</Latitude>
+                    <Longitude>139.810722</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>12000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="05">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>050</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>PLUTO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.608916</Latitude>
+                    <Longitude>139.960222</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>KAIJI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.735999</Latitude>
+                    <Longitude>139.968499</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>SPOON</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.907861</Latitude>
+                    <Longitude>139.887778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>ROVER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.988416</Latitude>
+                    <Longitude>139.849806</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Transition Name="AKAGI">
+                <SidTr_Waypoint ID="1">
+                    <Name>CLARK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.117221</Latitude>
+                    <Longitude>139.800139</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>AKAGI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.391194</Latitude>
+                    <Longitude>139.698972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="BRUCE">
+                <SidTr_Waypoint ID="1">
+                    <Name>CLARK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.117221</Latitude>
+                    <Longitude>139.800139</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>BRUCE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.200111</Latitude>
+                    <Longitude>139.948861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="INUBO">
+                <SidTr_Waypoint ID="1">
+                    <Name>BRUCE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.200111</Latitude>
+                    <Longitude>139.948861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>15000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>LEWIS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.231443</Latitude>
+                    <Longitude>140.142972</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>17000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="3">
+                    <Name>SILVA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.255000</Latitude>
+                    <Longitude>140.290556</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>17000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="4">
+                    <Name>INUBO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.726471</Latitude>
+                    <Longitude>140.799417</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>25000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
         </Sid>
     </Airport>
 </ProceduresDB>
