@@ -5787,5 +5787,352 @@
                 </RwyTr_Waypoint>
             </RunwayTransition>
         </Sid>
+        <Sid Name="VAMOS3" Runways="16R,16L,34L,34R,04,05,22">
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>158</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>T6R11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.431249</Latitude>
+                    <Longitude>139.860333</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(500)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>500</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>158</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>T6L21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.444194</Latitude>
+                    <Longitude>139.872778</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(700)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>700</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>338</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>TT502</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.540110</Latitude>
+                    <Longitude>139.955750</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>LOCUP</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.455222</Latitude>
+                    <Longitude>139.935694</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>5000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(700)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>700</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>338</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>TT502</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.540110</Latitude>
+                    <Longitude>139.955750</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>LOCUP</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.455222</Latitude>
+                    <Longitude>139.935694</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>5000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="04">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(700)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>700</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>043</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>TT502</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.540110</Latitude>
+                    <Longitude>139.955750</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>LOCUP</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.455222</Latitude>
+                    <Longitude>139.935694</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>5000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="05">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(700)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>700</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>050</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>TT501</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.557972</Latitude>
+                    <Longitude>139.841639</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-over</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>TT502</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.540110</Latitude>
+                    <Longitude>139.955750</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>LOCUP</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.455222</Latitude>
+                    <Longitude>139.935694</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>5000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="22">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>223</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>HOBBS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.448305</Latitude>
+                    <Longitude>139.761472</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>BASSA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.352444</Latitude>
+                    <Longitude>139.761722</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>VAMOS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.204305</Latitude>
+                    <Longitude>139.762111</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>9000</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+        </Sid>
     </Airport>
 </ProceduresDB>

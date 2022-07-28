@@ -117,7 +117,7 @@
                     <Sp_Turn>Auto</Sp_Turn>
                 </SidTr_Waypoint>
             </Sid_Transition>
-            <Sid_Transition Name="KARIWA">
+            <Sid_Transition Name="NAEBA">
                 <SidTr_Waypoint ID="1">
                     <Name>NAEBA</Name>
                     <Type>Normal</Type>
