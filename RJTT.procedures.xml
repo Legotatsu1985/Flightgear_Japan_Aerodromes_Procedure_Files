@@ -6133,6 +6133,46 @@
                     <Sp_Turn>Auto</Sp_Turn>
                 </RwyTr_Waypoint>
             </RunwayTransition>
+            <Sid_Transition Name="UTIBO">
+                <SidTr_Waypoint ID="1">
+                    <Name>UTIBO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>34.946388</Latitude>
+                    <Longitude>139.895528</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
+            <Sid_Transition Name="XAC">
+                <SidTr_Waypoint ID="1">
+                    <Name>DRAKY</Name>
+                    <Type>Normal</Type>
+                    <Latitude>34.883805</Latitude>
+                    <Longitude>139.534861</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+                <SidTr_Waypoint ID="2">
+                    <Name>XAC</Name>
+                    <Type>Normal</Type>
+                    <Latitude>34.712250</Latitude>
+                    <Longitude>139.414028</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>0</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>at</AltitudeRestriction>
+                    <Flytype>Fly-by</Flytype>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </SidTr_Waypoint>
+            </Sid_Transition>
         </Sid>
     </Airport>
 </ProceduresDB>
