@@ -405,10 +405,10 @@
                 <Sp_Turn>Auto</Sp_Turn>
 			</App_Waypoint>
             <App_Waypoint ID="3">
-                <Name>HAZAK</Name>
+                <Name>SEIRO</Name>
                 <Type>Normal</Type>
-                <Latitude>37.951783</Latitude>
-                <Longitude>139.230197</Longitude>
+                <Latitude>37.952494</Latitude>
+                <Longitude>139.230344</Longitude>
                 <Speed>0</Speed>
                 <Altitude>1700</Altitude>
                 <AltitudeCons>0</AltitudeCons>
@@ -444,10 +444,10 @@
                     <Sp_Turn>Auto</Sp_Turn>
                 </AppTr_Waypoint>
                 <AppTr_Waypoint ID="2">
-                    <Name>HYOKO</Name>
+                    <Name>JINGA</Name>
                     <Type>Normal</Type>
-                    <Latitude>37.863611</Latitude>
-                    <Longitude>139.307139</Longitude>
+                    <Latitude>37.864805</Latitude>
+                    <Longitude>139.309278</Longitude>
                     <Speed>0</Speed>
                     <Altitude>4500</Altitude>
                     <AltitudeCons>0</AltitudeCons>
@@ -456,10 +456,10 @@
                     <Sp_Turn>Auto</Sp_Turn>
                 </AppTr_Waypoint>
                 <AppTr_Waypoint ID="3">
-                    <Name>SIBAT</Name>
+                    <Name>ANNBO</Name>
                     <Type>Normal</Type>
-                    <Latitude>37.948610</Latitude>
-                    <Longitude>139.312389</Longitude>
+                    <Latitude>37.949860</Latitude>
+                    <Longitude>139.313583</Longitude>
                     <Speed>210</Speed>
                     <Altitude>2000</Altitude>
                     <AltitudeCons>0</AltitudeCons>
@@ -482,10 +482,10 @@
                     <Sp_Turn>Auto</Sp_Turn>
                 </AppTr_Waypoint>
                 <AppTr_Waypoint ID="2">
-                    <Name>SIBAT</Name>
+                    <Name>ANNBO</Name>
                     <Type>Normal</Type>
-                    <Latitude>37.948610</Latitude>
-                    <Longitude>139.312389</Longitude>
+                    <Latitude>37.949860</Latitude>
+                    <Longitude>139.313583</Longitude>
                     <Speed>210</Speed>
                     <Altitude>2000</Altitude>
                     <AltitudeCons>0</AltitudeCons>
@@ -495,10 +495,10 @@
                 </AppTr_Waypoint>
             </App_Transition>
             <App_Waypoint ID="1">
-                <Name>SIBAT</Name>
+                <Name>ANNBO</Name>
                 <Type>Normal</Type>
-                <Latitude>37.948610</Latitude>
-                <Longitude>139.312389</Longitude>
+                <Latitude>37.949860</Latitude>
+                <Longitude>139.313583</Longitude>
                 <Speed>210</Speed>
                 <Altitude>2000</Altitude>
                 <AltitudeCons>0</AltitudeCons>
@@ -507,10 +507,10 @@
                 <Sp_Turn>Auto</Sp_Turn>
             </App_Waypoint>
             <App_Waypoint ID="2">
-                <Name>HAZAK</Name>
+                <Name>SEIRO</Name>
                 <Type>Normal</Type>
-                <Latitude>37.951783</Latitude>
-                <Longitude>139.230197</Longitude>
+                <Latitude>37.952494</Latitude>
+                <Longitude>139.230344</Longitude>
                 <Speed>0</Speed>
                 <Altitude>1700</Altitude>
                 <AltitudeCons>0</AltitudeCons>
